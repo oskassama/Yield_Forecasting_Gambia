@@ -1,0 +1,47 @@
+# The Gambia Cereal Yield Analysis
+
+A project to process, analyze, and visualize data on cereal yields in The Gambia in order to see trends in cereal yield from 1961 to 2022.
+
+## 📊 Project Overview
+
+This project can be described as an analysis of 60 years of data on the yield of cereals in The Gambia to identify trends in agricultural productivity, volatility trends, and productivity metrics to inform better business intelligence and policy decisions related to agricultural production.
+
+## 🎯 Objectives
+
+-Aim to examine long-term trends in cereal yields in The Gambia
+-Aim to look at patterns/volatility in productivity 
+-Aim to produce comprehensive visualizations for stakeholder accountability 
+-Aim to offer meaningful insights and recommendations for agricultural policy planning
+
+## 📁 Files Structure
+project-folder/
+├── Cleaned_Cereal_Yield_Gambia.csv          # Input dataset (required)
+├── gambia_cereal_analysis.py                # Main analysis script
+├── gambia_cereal_yield_final_analysis.csv   # Enhanced output dataset
+├── README.md                                # This file
+└── visualizations/                          # Generated charts (displayed in script)
+## 🔧 Requirements
+
+### System Requirements
+- Python 3.7 or higher
+- Internet connection (for package installation)
+
+### Python Packages
+The script automatically installs the following packages if not present:
+- `pandas` - Data manipulation and analysis
+- `numpy` - Numerical computing
+- `matplotlib` - Data visualization
+- `seaborn` - Statistical data visualization
+- `scipy` - Scientific computing and statistics
+
+## 🚀 Getting Started
+
+### 1. Prerequisites
+Install python. Download from here https://python.org.
+
+### 2. Data Preparation
+You will need to make sure the input file `Cleaned_Cereal_Yield_Gambia.csv' is located in the same folder as the script.
+
+### 3. Running the Analysis
+```bash
+python gambia_cereal_analysis.py
